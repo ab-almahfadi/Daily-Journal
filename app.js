@@ -15,7 +15,7 @@ const app = express();
 main().catch(err => console.log(err));
 
 async function main(){
-  await mongoose.connect('mongodb+srv://admin-obad:11357900aa..@atlascluster.70y6xtb.mongodb.net/blogDB?retryWrites=true&w=majority');
+  await mongoose.connect('mongodb+srv://admin-obad:AWexddFH0zr3baQ9@atlascluster.70y6xtb.mongodb.net/blogDB?retryWrites=true&w=majority');
 }
 
 const postSchema = new mongoose.Schema({
